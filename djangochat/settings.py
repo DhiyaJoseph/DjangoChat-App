@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-LOGOUT_REDIRECT_URL = '/signup/'  # Redirect to the signup page after logout
+LOGOUT_REDIRECT_URL = '/'  
 LOGIN_REDIRECT_URL = '/rooms/'
 LOGIN_URL = '/login/'
 
@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'core'
+    'core',
+    'room',
 
 ]
 
